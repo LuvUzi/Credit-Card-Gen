@@ -83,9 +83,9 @@ print(Colorate.Vertical(Colors.purple_to_blue, center(banner1, space=60), stop=2
 
 
 print("This generator only generates Visa credit cards.")
-nb_nitros = int(input(Colorate.Vertical(Colors.purple_to_blue, "Veuillez saisir le nombre de cartes à générer: ")))
+nb_nitros = int(input(Colorate.Vertical(Colors.purple_to_blue, "Please enter the number of cards to generate: ")))
 nb = 1
-print("Génération de la carte de crédits..")
+print("Generation of the credit card.")
 while nb <= nb_nitros:
     exp_date2 = str(random.randint(1, 12))
     if exp_date2 == str(1):
